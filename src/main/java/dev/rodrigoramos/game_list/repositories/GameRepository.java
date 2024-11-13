@@ -1,4 +1,8 @@
 package dev.rodrigoramos.game_list.repositories;
 
-public interface GameRepository {
+import dev.rodrigoramos.game_list.entities.Game;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface GameRepository extends JpaRepository<Game, Long> {
+
 }
