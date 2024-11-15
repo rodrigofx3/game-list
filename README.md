@@ -95,7 +95,7 @@ game-list/
 ### Listas
 - **GET** `/api/lists`: Retorna as listas de jogos.
 - **GET** `/api/lists/{listId}/games`: Retorna os jogos de uma lista.
-- **PUT** `/api/lists/{listId}/replacement`: Reordena os jogos em uma lista.
+- **POST** `/api/lists/{listId}/replacement`: Reordena os jogos em uma lista.
 
 ---
 
