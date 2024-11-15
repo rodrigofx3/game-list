@@ -2,22 +2,22 @@ package dev.rodrigoramos.game_list.dto;
 
 public class ReplacementDTO {
 
-    private Integer SourceIndex;
-    private Integer TargetIndex;
-
-    public Integer getSourceIndex() {
-        return SourceIndex;
-    }
-
-    public void setSourceIndex(Integer sourceIndex) {
-        SourceIndex = sourceIndex;
-    }
+    private Integer sourceIndex;
+    private Integer targetIndex;
 
     public Integer getTargetIndex() {
-        return TargetIndex;
+        return targetIndex;
     }
 
     public void setTargetIndex(Integer targetIndex) {
-        TargetIndex = targetIndex;
+        this.targetIndex = targetIndex;
+    }
+
+    public Integer getSourceIndex() {
+        return sourceIndex;
+    }
+
+    public void setSourceIndex(Integer sourceIndex) {
+        this.sourceIndex = sourceIndex;
     }
 }

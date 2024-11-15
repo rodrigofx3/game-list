@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/lists")
+@RequestMapping("/api/lists")
 public class GameListController {
 
     @Autowired
