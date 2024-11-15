@@ -102,3 +102,5 @@ game-list/
 ## 🤝 Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/rodrigofx3/game-list/blob/572cfed803980f40079492b631e77b444c990abc/LICENSE)
