@@ -1,7 +1,7 @@
 package dev.rodrigoramos.game_list.dto;
 
 import dev.rodrigoramos.game_list.entities.Game;
-import dev.rodrigoramos.game_list.repositories.GameMinProjection;
+import dev.rodrigoramos.game_list.projections.GameMinProjection;
 
 public class GameMinDTO {
 

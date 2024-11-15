@@ -1,4 +1,4 @@
-package dev.rodrigoramos.game_list.repositories;
+package dev.rodrigoramos.game_list.projections;
 
 public interface GameMinProjection {
 
@@ -11,5 +11,7 @@ public interface GameMinProjection {
     String getImgUrl();
 
     String getShortDescription();
+
+    String getPosition();
 
 }

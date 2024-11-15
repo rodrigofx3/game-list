@@ -3,7 +3,7 @@ package dev.rodrigoramos.game_list.services;
 import dev.rodrigoramos.game_list.dto.GameDTO;
 import dev.rodrigoramos.game_list.dto.GameMinDTO;
 import dev.rodrigoramos.game_list.entities.Game;
-import dev.rodrigoramos.game_list.repositories.GameMinProjection;
+import dev.rodrigoramos.game_list.projections.GameMinProjection;
 import dev.rodrigoramos.game_list.repositories.GameRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
